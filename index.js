@@ -36,7 +36,7 @@ const upload = multer({ storage: storage });
 
 const db = mysql.createConnection({
   host: "localhost",
-  user: "bbs_user",
+  user: "user_bbs",
   password: "12345",
   database: "bbs",
 });
